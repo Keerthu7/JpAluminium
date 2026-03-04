@@ -1,24 +1,22 @@
 import Link from "next/link";
 import Image from "next/image";
-// Added Mail to the imports
-import { Phone, MapPin, Clock, Mail } from "lucide-react";
+import { Phone, MapPin, Clock, Mail, Instagram } from "lucide-react";
 
 export function Footer() {
   return (
     <footer className="border-t border-border bg-foreground text-background">
       <div className="mx-auto max-w-7xl px-6 py-16">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+          
           {/* Brand */}
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-3">
               <Image
-                src="/images/logo.webp"
-                alt="JP Aluminium Windows"
-                width={44}
-                height={44}
-                className="h-11 brightness-0 invert"
-                style={{ width: "auto" }}
-              />
+  src="/images/logo.jpg"
+  alt="JP Aluminium Windows"
+  width={70}
+  height={40}
+/>
               <div>
                 <p className="text-sm font-bold tracking-wide text-background">
                   JP Aluminium
@@ -91,12 +89,14 @@ export function Footer() {
               Contact Us
             </h3>
             <ul className="flex flex-col gap-4">
+              
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                 <span className="text-sm text-background/70">
                   Sundakkampalayam, Avinashi, Tirupur-641654.
                 </span>
               </li>
+
               <li className="flex items-center gap-3">
                 <Phone className="h-4 w-4 shrink-0 text-primary" />
                 <a
@@ -106,7 +106,7 @@ export function Footer() {
                   +91 95857 40777
                 </a>
               </li>
-              {/* --- New Email Section --- */}
+
               <li className="flex items-center gap-3">
                 <Mail className="h-4 w-4 shrink-0 text-primary" />
                 <a
@@ -116,21 +116,34 @@ export function Footer() {
                   jpaluminiumwindows@gmail.com
                 </a>
               </li>
-              {/* ------------------------- */}
+
               <li className="flex items-center gap-3">
                 <Clock className="h-4 w-4 shrink-0 text-primary" />
                 <span className="text-sm text-background/70">
                   Mon - Sat: 9:00 AM - 7:00 PM
                 </span>
               </li>
+
+              {/* Instagram */}
+              <li className="flex items-center gap-3">
+                <Instagram className="h-4 w-4 shrink-0 text-primary" />
+                <a
+                  href="https://www.instagram.com/jp_aluminium_windows?igsh=cmsyeXk1ZHNiY3l5&utm_source=qr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-background/70 transition-colors hover:text-primary"
+                >
+                  @jp_aluminium_windows
+                </a>
+              </li>
+
             </ul>
           </div>
         </div>
 
         <div className="mt-12 flex flex-col items-center gap-2 border-t border-background/10 pt-8 text-center">
           <p className="text-sm text-background/50">
-            &copy; {new Date().getFullYear()} JP Aluminium Windows. All
-            rights reserved.
+            &copy; {new Date().getFullYear()} JP Aluminium Windows. All rights reserved.
           </p>
           <p className="text-xs text-background/40">
             Developed by{" "}

@@ -35,7 +35,7 @@ export function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
         <Link href="/" className="flex items-center gap-3">
           <Image
-            src="/images/logo.webp"
+           src="/images/logo.jpg"
             alt="JP Aluminium Windows"
             width={48}
             height={48}

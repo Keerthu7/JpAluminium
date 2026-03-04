@@ -54,12 +54,12 @@ function ContactInfo() {
       lines: ["jpaluminiumwindows@gmail.com"],
       href: "mailto:jpaluminiumwindows@gmail.com",
     },
-    {
-      icon: MessageCircle,
-      title: "WhatsApp",
-      lines: ["Chat with us instantly"],
-      href: "https://wa.me/919585740777",
-    },
+   {
+  icon: MessageCircle,
+  title: "WhatsApp",
+  lines: ["Chat with us instantly"],
+  href: "https://wa.me/919585740777?text=Hi%2C%20I%27m%20interested%20in%20your%20aluminium%20services",
+},
   ];
 
   return (
