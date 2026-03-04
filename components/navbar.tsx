@@ -74,7 +74,7 @@ export function Navbar() {
             </Link>
           ))}
           <Link
-            href="tel:+917305341479"
+            href="tel:+91 95857 40777"
             className="flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-all hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/25"
           >
             <Phone className="h-4 w-4" />
@@ -109,7 +109,7 @@ export function Navbar() {
               </Link>
             ))}
             <Link
-              href="tel:+917305341479"
+              href="tel:+91 95857 40777"
               className="mt-2 flex items-center justify-center gap-2 rounded-lg bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground"
             >
               <Phone className="h-4 w-4" />

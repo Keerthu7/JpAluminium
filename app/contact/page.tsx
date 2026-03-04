@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ContactContent } from "@/components/contact-content";
+import ContactContent from "@/components/contact-content";
 
 export const metadata: Metadata = {
   title: "Contact Us | JP Aluminium Windows",

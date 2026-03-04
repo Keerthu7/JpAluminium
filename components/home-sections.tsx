@@ -54,7 +54,7 @@ export function HeroSection() {
             <ArrowRight className="h-4 w-4" />
           </Link>
           <Link
-            href="tel:+917305341479"
+            href="tel:+91 95857 40777"
             className="flex items-center gap-2 rounded-lg border border-background/30 bg-background/10 px-8 py-4 text-sm font-semibold text-background backdrop-blur-sm transition-all hover:bg-background/20"
           >
             <Phone className="h-4 w-4" />
@@ -434,7 +434,7 @@ export function CTASection() {
             <ArrowRight className="h-4 w-4" />
           </Link>
           <Link
-            href="tel:+917305341479"
+            href="tel:+91 95857 40777"
             className="flex items-center gap-2 rounded-lg border border-background/30 px-8 py-4 text-sm font-semibold text-background transition-all hover:bg-background/10"
           >
             <Phone className="h-4 w-4" />
