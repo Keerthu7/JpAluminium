@@ -123,7 +123,7 @@ function ExperienceSection() {
               With over 10 years of experience in the aluminium and glass
               industry, our skilled technicians deliver quality workmanship that
               stands out. We have completed hundreds of residential and
-              commercial projects across Avinashi, Tirupur, and surrounding
+              commercial projects across Tamilnadu, and surrounding
               areas.
             </p>
             <div className="mt-8 grid grid-cols-3 gap-6">

@@ -33,14 +33,14 @@ export function HeroSection() {
         >
           Premium Aluminium
           <br />
-          <span className="text-primary">Windows & Glass</span> Solutions
+          <span className="text-primary">Windows & Doors</span> 
         </h1>
         <p
           className="animate-fade-in-up mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-background/80 sm:text-xl"
           style={{ animationDelay: "0.3s" }}
         >
           Strong. Stylish. Long-Lasting. Trusted by homes and businesses across
-          Avinashi and Tirupur.
+          Tamilnadu.
         </p>
         <div
           className="animate-fade-in-up mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"
@@ -94,7 +94,7 @@ export function AboutPreview() {
             <p className="mt-6 text-base leading-relaxed text-muted-foreground">
               JP Aluminium Windows is a trusted manufacturer and installer
               of high-quality aluminium windows, sliding doors, partitions, and
-              glass works in Avinashi and Tirupur. With years of experience and
+              glass works in Tamilnadu. With years of experience and
               dedication to craftsmanship, we deliver solutions that combine
               durability, modern design, and long-term performance.
             </p>
@@ -299,7 +299,7 @@ export function WhyChooseUs() {
               Why Us
             </p>
             <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Why Choose JP Aluminium?
+              Why Choose JP Aluminium windows?
             </h2>
             <p className="mt-4 text-base text-muted-foreground">
               We bring together quality materials, expert craftsmanship, and

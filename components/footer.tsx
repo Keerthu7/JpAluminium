@@ -28,8 +28,7 @@ export function Footer() {
             </Link>
             <p className="text-sm leading-relaxed text-background/70">
               Trusted manufacturer and installer of high-quality aluminium
-              windows, doors, partitions, and glass works in Avinashi and
-              Tirupur.
+              windows, doors, partitions, and glass works in Tamilnadu.
             </p>
           </div>
 
